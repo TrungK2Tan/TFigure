@@ -1,0 +1,8 @@
+vite+react
+run code : npm run dev
+install project with vite+react
+npx create-vite@latest . --template react
+
+taiwindcss for vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
