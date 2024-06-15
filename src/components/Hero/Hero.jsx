@@ -7,20 +7,20 @@ const ImageList = [
   {
     id: 1,
     img: Banner1,
-    title: "hang sale",
-    description: "kkk",
+    title: "Vui lễ hội! giảm giá siêu cấp",
+    description: "Đơn hàng trên 1 triệu nhận voucher giảm giá cực cao. Chương trình áp dụng vào cuối tuần",
   },
   {
     id: 2,
     img: Banner2,
-    title: "hang sawewqerq",
-    description: "kkkaaaaaa",
+    title: "Các loại mô hình Limited sale mạnh",
+    description: "Mô hình tái bản lần đầu ",
   },
   {
     id: 3,
     img: Banner3,
-    title: "hang fasdfasdfasdfasdf",
-    description: "fadsfsdfasdf",
+    title: "Super sale cuối tuần trao yêu thương",
+    description: "Siêu sale, siêu hot, săn ngay nào",
   },
 ];
 
@@ -55,7 +55,7 @@ const Hero = () => {
               <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100"  className="text-sm">{data.description} </p>
               <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Order Now
+                  ĐẶT NGAY
                 </button>
               </div>
             </div>

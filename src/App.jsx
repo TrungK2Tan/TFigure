@@ -20,7 +20,7 @@ const App = () => {
   });
   AOS.refresh();
   return (
-    <div>
+    <div className="dark:bg-black dark:text-white">
       <Navbar />
       <Hero />
       <Products />

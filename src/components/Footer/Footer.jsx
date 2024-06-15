@@ -20,37 +20,36 @@ const BannerImg = {
 
 const FooterLinks = [
   {
-    title: "Home",
+    title: "Trang chủ",
     link: "/#",
   },
   {
-    title: "About",
+    title: "Về chúng tôi",
     link: "/#about",
   },
   {
-    title: "Contact",
+    title: "Hỗ trợ",
     link: "/#contact",
   },
   {
-    title: "Blog",
+    title: "Bài viết",
     link: "/#blog",
   },
 ];
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className="text-white">
+    <div style={BannerImg} className="text-white ">
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              TFigure
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+             HÀNG NHẬP KHẨU CHẤT LƯỢNG CAO
             </p>
           </div>
 
@@ -59,7 +58,7 @@ const Footer = () => {
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
+                  Thông tin liên hệ
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -76,7 +75,7 @@ const Footer = () => {
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
+                  Chính sách bảo mật
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -108,11 +107,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Ho Chi Minh, Viet Nam</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+84 356 243 964</p>
                 </div>
               </div>
             </div>
